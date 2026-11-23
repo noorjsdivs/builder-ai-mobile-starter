@@ -1,0 +1,16 @@
+# dependencies
+node_modules/
+
+# settings with secrets: never commit them
+.env
+.env.*
+!.env.example
+
+# builds
+dist/
+.expo/
+ios/
+android/
+
+# OS
+.DS_Store
